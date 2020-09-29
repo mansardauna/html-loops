@@ -1,0 +1,78 @@
+body{
+    background-image: url(./Au7m4i.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100em;
+    
+}
+.container{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin: 15em;
+    padding: 2em;
+    border-radius: 2em;
+    margin-top:0em;
+    color: white;
+    width: 40em;
+    background-color: black;
+    box-shadow: blanchedalmond 1em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.head{
+    background-color: rgb(37, 37, 37);
+   /* border: .3em solid black; */
+   border-radius: .5em;
+   width: 95%;
+   height: 2em;
+   margin-bottom: 3em;
+   color: white;
+   display: flex;
+   justify-content: space-between;
+   padding: 2em;
+   position: sticky;
+   -webkit-border-radius: .5em;
+   -moz-border-radius: .5em;
+   -ms-border-radius: .5em;
+   -o-border-radius: .5em;
+}
+#head{
+    font-weight: 900;
+    font-size: 40px;
+}
+
+a:hover{
+    cursor: pointer;
+    
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.down{
+    border: .05em solid grey;
+    height: 1em;
+    width: 8em;
+    padding: 2.5em;
+    margin-top: 1em;
+    border-radius: 1em;
+}
+.down:hover{
+    border:.09em solid gray;
+    background-color: rgb(37, 37, 37);
+}
+
+.right{
+    width: 12em;
+    padding-left: 3em;
+}
+.left{
+    width: 12em;
+    padding-right: 3em;
+    
+}
+li{
+    margin: 3em;
+}

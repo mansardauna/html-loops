@@ -1,0 +1,134 @@
+body {
+    background-image: url(./img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100rem;
+    background-position: center;
+    /* background-color: blueviolet; */
+    font-family: roboto;
+}
+
+.container {
+    background-color: white;
+    margin-top: 4em;
+    margin-left: 33em;
+    width: 21em;
+    height: 23em;
+    padding-bottom: 1.5em;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    padding-top: 1em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+.hd {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+#fra {
+    font-size: 55px;
+    color: #3b8acf;
+    font-weight: 900;
+}
+
+#text {
+    font-size: 12px;
+    color: darkgray;
+}
+
+.line {
+    border-top: 0.2em solid rgb(192, 192, 235);
+    width: 1.5em;
+    margin-top: 2em;
+}
+
+.flight {
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    margin-top: 3em;
+    padding-left: 1.5em;
+    padding-right: 3.5em;
+}
+
+.fd {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1.5em;
+    padding-right: 3.5em;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+#Qr {
+    height: 10em;
+    width: 10em;
+}
+
+#flgt {
+    color: rgb(187, 182, 182);
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+#gate {
+    color: rgb(187, 182, 182);
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+#seat {
+    color: rgb(187, 182, 182);
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+#down1 {
+    font-weight: bolder;
+}
+
+#down2 {
+    font-weight: bolder;
+    margin-left: 1.4em;
+}
+
+#down3 {
+    font-weight: bolder;
+}
+
+#pass {
+    color: rgb(187, 182, 182);
+    font-size: 12px;
+    font-weight: bolder;
+    padding-bottom: 3em;
+}
+
+#down {
+    font-weight: bolder;
+    margin-bottom: 1em;
+}
+
+.pass1 {
+    margin-bottom: 1em;
+}
+
+.pass2 {
+    margin-bottom: 1em;
+}
+
+.pass3 {
+    margin-bottom: 1em;
+}
