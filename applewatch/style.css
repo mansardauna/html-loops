@@ -1,0 +1,194 @@
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.align {
+  align-items: center;
+}
+
+.space {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar {
+  width: 75vw;
+  height: 2rem;
+  padding: 1rem;
+  margin: 1rem 8rem 0;
+  color: grey;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+
+.navbar input {
+  border: none;
+  border-bottom: 1px solid gray;
+  padding: .5rem;
+  align-items: center;
+  width: 7rem;
+}
+
+.pages {
+  width: 30rem;
+}
+
+.about:hover {
+  color: red;
+}
+
+input:focus {
+  outline: none;
+}
+
+.about {
+  font-weight: 300;
+}
+
+.container {
+  width: 118vw;
+  margin: 3rem 0 0 0rem;
+  border-bottom: 1px solid lightgray;
+}
+
+.card {
+  margin-left: 10rem;
+  width: fit-content;
+}
+
+.watch {
+  width: 35rem;
+  height: 35rem;
+}
+
+#freedom {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.sideline {
+  width: 16rem;
+  height: fit-content;
+  list-style: 1rem;
+  padding-left: 2rem;
+  font-size: 12px;
+  border-left: 2px solid rgb(181, 173, 173);
+  margin: 2.5rem 0;
+  color: rgb(122, 119, 119);
+  font-weight: 400;
+}
+
+.button {
+  background-color: rgb(213, 85, 85);
+  width: fit-content;
+  padding: .8rem;
+  font-size: 12px;
+  font-weight: 700;
+  color: white;
+  border-radius: 5px;
+
+}
+
+.button:hover {
+  background-color: rgb(89, 42, 42);
+  ;
+}
+
+.mid {
+  width: 70vw;
+  margin: 2rem 10rem 2rem;
+}
+
+.break {
+  width: 20rem;
+}
+
+.detail {
+  flex-direction: column;
+  width: 15rem;
+  height: 10rem;
+}
+
+#title {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+#text {
+  font-weight: 400;
+  width: 13rem;
+  color: rgb(64, 63, 63);
+  line-height: 1rem;
+  font-size: 12px;
+  margin: 0 0 1rem;
+}
+
+.dot {
+  padding: 2px;
+  background-color: rgb(168, 164, 164);
+  border-radius: 100%;
+  margin-right: .3rem;
+}
+
+.preview {
+  width: 20rem;
+  height: 30rem;
+  margin: 2rem 15rem 0 0;
+}
+
+.footer {
+  background-image: url(./runners.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  color: white;
+  height: 40rem;
+  margin: 3rem 0 0 0;
+}
+
+
+.dash {
+  width: 3rem;
+  border-top: 2px solid rgb(221, 56, 56);
+}
+
+#more {
+  font-size: 12px;
+  font-weight: 600;
+  color: rgb(221, 56, 56);
+  margin-left: .3rem;
+}
+
+.mid-col-2 {
+  width: fit-content;
+
+}
+
+.block {
+  display: block;
+}
+
+.left {
+  right: 15rem;
+  position: absolute;
+  margin: 10rem 0 0 0;
+}
